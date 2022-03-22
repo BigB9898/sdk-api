@@ -65,7 +65,7 @@ Reference to a <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color"
 
 Type: <b>REAL</b>
 
-Optional. Real number that specifies the width of this pen's stroke. The default value is 1.0.
+Optional. Real number that specifies the width of this pen's stroke. The default value is 1.0. A value of 0 will be treated similarly to a value of 1, except that the width will not be affected by scale-transform operations that are in effect for the Graphics object that the pen is used for, resulting in the width to always be 1 pixel.
 
 ## -remarks
 
